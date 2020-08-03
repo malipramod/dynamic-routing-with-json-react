@@ -21,9 +21,9 @@ export const menuItems: Array<IRoute> = [
         path: '/user/:userId/:name',
         title: 'About',
         containParam: true,
-        params: [{ id: "userId", value: "1" },{ id: "name", value: "pramod" }],
+        params: [{ id: "userId", value: "1" }, { id: "name", value: "pramod" }],
         content: (
-            <User/>
+            <User />
         )
     },
 ]
